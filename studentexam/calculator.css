@@ -1,0 +1,91 @@
+/* The Modal (background) */
+.bg-modal {
+    display: none;
+    float: right;
+    background-color:white;
+    height: 320px;
+    position: sticky;
+    margin-bottom: 0px;
+    padding-top: 0px;
+    z-index: 1;
+    top: 0;
+}
+
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 10px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 50px; /* Full width */
+    height: 50px;
+    float: right;
+    
+      /* Full height */ 
+
+
+}
+
+/* Modal Content */
+.modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 10px;
+    width: 80%;
+    height: 100px;
+    
+
+}  
+
+/* The Close Button */
+.close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 42px;
+    font-weight: bold;   
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+
+}
+
+/*the calculator style*/
+ input#button1{
+            background: lightgray;
+            width:17%;
+            font-size: 20px;
+            font-weight: 900;
+            margin: 2%;
+            border-radius: 4%;
+
+        }
+        input#text1{
+            display: block;
+            position: relative;
+            font-size: 20px;
+            width: 90%;
+            margin: 5px auto;
+        }
+
+        @media screen and (max-height: 450px) {
+
+            .modal{
+               width: 100%;
+            }
+            .modal-content{
+               width: 100%;
+            }
+           }
+
+p{
+    display: inline-flex;
+    height: 70px;
+    width: 200px;
+    font-size: 50px;
+    padding: 10px;
+}
